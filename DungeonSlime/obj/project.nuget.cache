@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9C8Mz+RW+aFxVWllv8Ir4tO0QEjpOdNdiYyNkg3NRUbaNsByF6JKcBxZspntDwxxFvSnld4RYPz9EBuCP+KWLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\famal\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\famal\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
