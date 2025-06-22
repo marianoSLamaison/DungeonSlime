@@ -2,13 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "MonoGame.Content.Builder.Task/3.8.1.303": {
-        "type": "package",
-        "build": {
-          "build/MonoGame.Content.Builder.Task.props": {},
-          "build/MonoGame.Content.Builder.Task.targets": {}
-        }
-      },
       "MonoGame.Framework.DesktopGL/3.8.1.303": {
         "type": "package",
         "compile": {
@@ -54,34 +47,10 @@
             "rid": "win-x86"
           }
         }
-      },
-      "MonoGameLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MonoGameLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MonoGameLibrary.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "MonoGame.Content.Builder.Task/3.8.1.303": {
-      "sha512": "9Ilzzje62LhWElbPNEl7vh7XsRSbze+lvCJdZtTZUGu48FRgvYN6THURwIB9PN98EI33/Wnf6iuShNUtD7hL4Q==",
-      "type": "package",
-      "path": "monogame.content.builder.task/3.8.1.303",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "build/MonoGame.Content.Builder.Task.props",
-        "build/MonoGame.Content.Builder.Task.targets",
-        "monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-        "monogame.content.builder.task.nuspec"
-      ]
-    },
     "MonoGame.Framework.DesktopGL/3.8.1.303": {
       "sha512": "eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
       "type": "package",
@@ -103,18 +72,11 @@
         "runtimes/win-x86/native/SDL2.dll",
         "runtimes/win-x86/native/soft_oal.dll"
       ]
-    },
-    "MonoGameLibrary/1.0.0": {
-      "type": "project",
-      "path": "../MonoGameLibrary/MonoGameLibrary.csproj",
-      "msbuildProject": "../MonoGameLibrary/MonoGameLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MonoGame.Content.Builder.Task >= 3.8.1.303",
-      "MonoGame.Framework.DesktopGL >= 3.8.1.303",
-      "MonoGameLibrary >= 1.0.0"
+      "MonoGame.Framework.DesktopGL >= 3.8.1.303"
     ]
   },
   "packageFolders": {
@@ -123,11 +85,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
-      "projectName": "DungeonSlime",
-      "projectPath": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
+      "projectUniqueName": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj",
+      "projectName": "MonoGameLibrary",
+      "projectPath": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj",
       "packagesPath": "C:\\Users\\famal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\DungeonSlime\\obj\\",
+      "outputPath": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\MonoGameLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\famal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -141,11 +103,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj": {
-              "projectPath": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -158,11 +116,8 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "MonoGame.Content.Builder.Task": {
-            "target": "Package",
-            "version": "[3.8.1.303, )"
-          },
           "MonoGame.Framework.DesktopGL": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[3.8.1.303, )"
           }

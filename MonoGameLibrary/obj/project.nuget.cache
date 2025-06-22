@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KBcEdPKojciRdwy3YR+PodIbQXaVDFn3zP/U21gA9xf41IH+c69z2axQU8+jvIvChNfoiJmFYHvt9t6rR6LT3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\famal\\OneDrive\\Escritorio\\desarrollo\\C#\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\famal\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
