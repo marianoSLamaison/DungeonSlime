@@ -28,3 +28,4 @@ C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\D
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\images\logo.xnb
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\images\atlas-definition.xml
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\images\atlas.xnb
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\images\tilemap-definition.xml
