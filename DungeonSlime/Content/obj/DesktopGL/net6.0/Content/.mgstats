@@ -1,4 +1,1 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/audio/bounce.wav","C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/audio/bounce.xnb","SoundEffectProcessor","SoundEffectContent",50664,50725,4,835575
-"C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/audio/collect.wav","C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/audio/collect.xnb","SoundEffectProcessor","SoundEffectContent",22092,22153,2,4452176
-"C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/audio/theme.ogg","C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/audio/theme.xnb","SongProcessor","SongContent",1079706,123,5,3693457
