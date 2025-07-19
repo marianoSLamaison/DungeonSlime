@@ -33,3 +33,5 @@ C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\D
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\audio\collect.xnb
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\audio\theme.ogg
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\audio\theme.xnb
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\fonts\04B_30.ttf
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\fonts\04B_30.xnb

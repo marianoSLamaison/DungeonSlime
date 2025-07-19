@@ -42,8 +42,21 @@ public class Game1 : Core
     // The sound effect to play when the slime eats a bat.
     private SoundEffect _collectSoundEffect;
 
-    // The background theme song
+    // The background theme song.
     private Song _themeSong;
+
+    // The SpriteFont Description used to draw text.
+    private SpriteFont _font;
+
+    // Tracks the players score.
+    private int _score;
+
+    // Defines the position to draw the score text at.
+    private Vector2 _scoreTextPosition;
+
+    // Defines the origin used when drawing the score text.
+    private Vector2 _scoreTextOrigin;
+
 
     public Game1() : base("Dungeon Slime", 1280, 720, false)
     {
@@ -76,6 +89,14 @@ public class Game1 : Core
 
         // Start playing the background music.
         Audio.PlaySong(_themeSong);
+
+        // Set the position of the score text to align to the left edge of the
+        // room bounds, and to vertically be at the center of the first tile.
+        _scoreTextPosition = new Vector2(_roomBounds.Left, _tilemap.TileHeight * 0.5f);
+
+        // Set the origin of the text so it is left-centered.
+        float scoreTextYOrigin = _font.MeasureString("Score").Y * 0.5f;
+        _scoreTextOrigin = new Vector2(0, scoreTextYOrigin);
     }
 
     protected override void LoadContent()
@@ -100,9 +121,12 @@ public class Game1 : Core
 
         // Load the collect sound effect.
         _collectSoundEffect = Content.Load<SoundEffect>("audio/collect");
-        
+
         // Load the background theme music.
         _themeSong = Content.Load<Song>("audio/theme");
+
+        // Load the font
+        _font = Content.Load<SpriteFont>("fonts/04B_30");
     }
 
     protected override void Update(GameTime gameTime)
@@ -150,10 +174,10 @@ public class Game1 : Core
             _slimePosition.Y = _roomBounds.Bottom - _slime.Height;
         }
 
-        // Calculate the new position of the bat based on the velocity.
+        // Calculate the new position of the bat based on the velocity
         Vector2 newBatPosition = _batPosition + _batVelocity;
 
-        // Create a bounding circle for the bat.
+        // Create a bounding circle for the bat
         Circle batBounds = new Circle(
             (int)(newBatPosition.X + (_bat.Width * 0.5f)),
             (int)(newBatPosition.Y + (_bat.Height * 0.5f)),
@@ -215,6 +239,9 @@ public class Game1 : Core
 
             // Play the collect sound effect.
             Audio.PlaySoundEffect(_collectSoundEffect);
+
+            // Increase the player's score.
+            _score += 100;
         }
 
         base.Update(gameTime);
@@ -225,12 +252,12 @@ public class Game1 : Core
         // Generate a random angle.
         float angle = (float)(Random.Shared.NextDouble() * Math.PI * 2);
 
-        // Convert angle to a direction vector.
+        // Convert angle to a direction vector
         float x = (float)Math.Cos(angle);
         float y = (float)Math.Sin(angle);
         Vector2 direction = new Vector2(x, y);
 
-        // Multiply the direction vector by the movement speed.
+        // Multiply the direction vector by the movement speed
         _batVelocity = direction * MOVEMENT_SPEED;
     }
 
@@ -357,6 +384,19 @@ public class Game1 : Core
 
         // Draw the bat sprite.
         _bat.Draw(SpriteBatch, _batPosition);
+
+        // Draw the score
+        SpriteBatch.DrawString(
+            _font,              // spriteFont
+            $"Score: {_score}", // text
+            _scoreTextPosition, // position
+            Color.White,        // color
+            0.0f,               // rotation
+            _scoreTextOrigin,   // origin
+            1.0f,               // scale
+            SpriteEffects.None, // effects
+            0.0f                // layerDepth
+        );
 
         // Always end the sprite batch when finished.
         SpriteBatch.End();
