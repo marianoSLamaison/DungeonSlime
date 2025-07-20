@@ -10,9 +10,11 @@
     <File>C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/fonts/04B_30_5x.spritefont</File>
     <File>C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/fonts/04B_30.spritefont</File>
     <File>C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/images/atlas.png</File>
+    <File>C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/images/background-pattern.png</File>
     <File>C:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
