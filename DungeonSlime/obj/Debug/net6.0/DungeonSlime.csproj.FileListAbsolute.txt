@@ -46,3 +46,4 @@ C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\D
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonSlime.sourcelink.json
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonS.106F46AA.Up2Date
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\audio\ui.xnb
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\fonts\04b_30.fnt
