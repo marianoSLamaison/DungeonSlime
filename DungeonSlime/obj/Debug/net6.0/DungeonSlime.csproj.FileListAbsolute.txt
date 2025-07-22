@@ -19,7 +19,6 @@ C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\D
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonSlime.AssemblyInfoInputs.cache
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonSlime.AssemblyInfo.cs
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonSlime.csproj.CoreCompileInputs.cache
-C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonSlime.csproj.CopyComplete
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonSlime.dll
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\refint\DungeonSlime.dll
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonSlime.pdb
@@ -37,3 +36,13 @@ C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\D
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\fonts\04B_30.xnb
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\fonts\04B_30_5x.xnb
 C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\images\background-pattern.xnb
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\GumCommon.dll
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\GumDataTypesNet6.dll
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\FlatRedBall.InterpolationCore.dll
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\ToolsUtilitiesStandard.dll
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\MonoGameGum.dll
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\TextCopy.dll
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonSlime.sourcelink.json
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\obj\Debug\net6.0\DungeonS.106F46AA.Up2Date
+C:\Users\famal\OneDrive\Escritorio\desarrollo\C#\DungeonSlime\DungeonSlime\bin\Debug\net6.0\Content\audio\ui.xnb
