@@ -7,11 +7,19 @@
     <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/audio/bounce.wav</File>
     <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/audio/collect.wav</File>
     <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/audio/theme.ogg</File>
+    <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/audio/ui.wav</File>
+    <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/effects/grayscaleEffect.fx</File>
+    <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/fonts/04B_30_5x.spritefont</File>
     <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/fonts/04B_30.spritefont</File>
     <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/images/atlas.png</File>
+    <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/images/background-pattern.png</File>
     <File>c:/Users/famal/OneDrive/Escritorio/desarrollo/C#/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
